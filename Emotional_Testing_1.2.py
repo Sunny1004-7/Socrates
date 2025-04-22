@@ -4,7 +4,6 @@ import time
 import pandas as pd
 from autogen import ConversableAgent
 
-# llm_config 配置
 llm_config = {
     "cache_seed": None,
     "config_list": [{
@@ -158,7 +157,6 @@ for i in range(1, 11):
 
     time.sleep(1)
 
-# 保存对话记录
 with open("conversation_with_emotion.json", "w", encoding="utf-8") as f:
     json.dump(conversation_history, f, ensure_ascii=False, indent=2)
 
