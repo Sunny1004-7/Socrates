@@ -61,7 +61,6 @@ student_reminder_prompt = {
 )
 }
 
-# 创建教师和学生代理
 agent_teacher = create_agent(teacher_prompt, name="socratic_teacher")
 agent_student = create_agent(student_prompt, name="realistic_student")
 
