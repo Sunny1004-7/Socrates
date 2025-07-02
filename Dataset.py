@@ -32,7 +32,7 @@ df = df[[
     "answer",
     "concept_id",
     "course_id",
-    "name",        # 课程名称
+    "name",        
     "is_correct",
     "score",
     "attempts",
